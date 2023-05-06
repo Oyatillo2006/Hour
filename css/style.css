@@ -1,0 +1,531 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.minutes {
+    width: 25%;
+    height: 40%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.minute__left {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: black;
+}
+
+.minute__right {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.item-g {
+    width: 90%;
+    height: 5%;
+    background-color: rgb(26, 9, 9);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.top {
+    top: 0;
+    left: 5%;
+}
+
+.center {
+    top: 47.5%;
+    left: 5%;
+}
+
+.bottom {
+    bottom: 0;
+    left: 5%;
+}
+
+.item-v {
+    width: 10%;
+    height: 45%;
+    background-color: rgb(26, 9, 9);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.right-top {
+    right: 0;
+    top: 4%;
+}
+
+.right-bottom {
+    right: 0;
+    bottom: 4%;
+}
+
+.left-bottom {
+    left: 0;
+    bottom: 4%;
+}
+
+.left-top {
+    left: 0;
+    top: 4%;
+}
+
+.top__a1 {
+    animation: top1 10s linear infinite;
+}
+
+.right-top__a1 {
+    animation: right-top1 10s linear infinite;
+}
+
+.right-bottom__a1 {
+    animation: right-bottom1 10s linear infinite;
+}
+
+.bottom__a1 {
+    animation: bottom1 10s linear infinite;
+}
+
+.left-bottom__a1 {
+    animation: left-bottom1 10s linear infinite;
+}
+
+.lef-top__a1 {
+    animation: left-top1 10s linear infinite;
+}
+
+.center__a1 {
+    animation: center1 10s linear infinite;
+}
+
+
+
+
+
+
+.top__a2 {
+    animation: top2 10s linear infinite;
+}
+
+.right-top__a2 {
+    animation: right-top2 10s linear infinite;
+}
+
+.right-bottom__a2 {
+    animation: right-bottom2 10s linear infinite;
+}
+
+.bottom__a2 {
+    animation: bottom2 10s linear infinite;
+}
+
+.left-bottom__a2 {
+    animation: left-bottom2 10s linear infinite;
+}
+
+.left-top__a2 {
+    animation: left-top2 10s linear infinite;
+}
+
+.center__a2 {
+    animation: center2 10s linear infinite;
+}
+
+
+
+/* Number left */
+@keyframes top1 {
+    0% {
+        background-color: #1a0909;
+    }
+
+    10% {
+        background-color: #1a0909;
+    }
+
+    10.1% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes right-top1 {
+    0% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes right-bottom1 {
+    0% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes bottom1 {
+    0% {
+        background-color: #1a0909;
+    }
+
+    10% {
+        background-color: #1a0909;
+    }
+
+    10.1% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes left-bottom1 {
+    0% {
+        background-color: #1a0909;
+    }
+
+    10% {
+        background-color: #1a0909;
+    }
+
+    10.1% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes left-top1 {
+    0% {
+        background-color: #1a0909;
+    }
+
+    10% {
+        background-color: #1a0909;
+    }
+
+    10.1% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+
+
+
+
+
+/* Number right */
+
+@keyframes top2 {
+    0% {
+        background-color: red;
+    }
+
+    60% {
+        background-color: red;
+    }
+
+    60.1% {
+        background-color: #1a0909;
+    }
+
+    70% {
+        background-color: #1a0909;
+    }
+
+    70.1% {
+        background-color: red;
+    }
+
+    90% {
+        background-color: red;
+    }
+
+    90.1% {
+        background-color: #1a0909;
+    }
+
+    100% {
+        background-color: #1a0909;
+    }
+
+}
+
+@keyframes right-top2 {
+    0% {
+        background-color: red;
+    }
+
+    40% {
+        background-color: red;
+    }
+
+    40.1% {
+        background-color: #1a0909;
+    }
+
+    60% {
+        background-color: #1a0909;
+    }
+
+    60.1% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes right-bottom2 {
+    0% {
+        background-color: red;
+    }
+
+    80% {
+        background-color: red;
+    }
+
+    80.1% {
+        background-color: #1a0909;
+    }
+
+    90% {
+        background-color: #1a0909;
+    }
+
+    90.1% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes bottom2 {
+    0% {
+        background-color: red;
+    }
+
+    30% {
+        background-color: red;
+    }
+
+    30.1% {
+        background-color: #1a0909;
+    }
+
+    40% {
+        background-color: #1a0909;
+    }
+
+    40.1% {
+        background-color: red;
+    }
+
+    60% {
+        background-color: red;
+    }
+
+    60.1% {
+        background-color: #1a0909;
+    }
+
+    70% {
+        background-color: #1a0909;
+    }
+
+    70.1% {
+        background-color: red;
+    }
+
+    90% {
+        background-color: red;
+    }
+
+    90.1% {
+        background-color: #1a0909;
+    }
+
+    100% {
+        background-color: #1a0909;
+    }
+
+}
+
+@keyframes left-bottom2 {
+    0% {
+        background-color: red;
+    }
+
+    10% {
+        background-color: red;
+    }
+
+    10.1% {
+        background-color: #1a0909
+    }
+
+    20% {
+        background-color: #1a0909
+    }
+
+    20.1% {
+        background-color: red;
+    }
+
+    30% {
+        background-color: red;
+    }
+
+    30.1% {
+        background-color: #1a0909;
+    }
+
+    40% {
+        background-color: #1a0909;
+    }
+
+    40.1% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    50.1% {
+        background-color: #1a0909;
+    }
+
+    80% {
+        background-color: #1a0909;
+    }
+
+    80.1% {
+        background-color: red;
+    }
+
+    90% {
+        background-color: red;
+    }
+
+    90.1% {
+        background-color: #1a0909;
+    }
+
+    100% {
+        background-color: #1a0909;
+    }
+}
+
+@keyframes left-top2 {
+    0% {
+        background-color: red;
+    }
+
+    30% {
+        background-color: red;
+    }
+
+    30.1% {
+        background-color: #1a0909;
+    }
+
+    40% {
+        background-color: #1a0909;
+    }
+
+    40.1% {
+        background-color: red;
+    }
+
+    70% {
+        background-color: red;
+    }
+
+    70.1% {
+        background-color: #1a0909;
+    }
+
+    100% {
+        background-color: #1a0909;
+    }
+}
+
+@keyframes center2 {
+    0% {
+        background-color: #1a0909;
+    }
+
+    10% {
+        background-color: #1a0909;
+    }
+
+    10.1% {
+        background-color: red;
+    }
+
+    30% {
+        background-color: red;
+    }
+
+    30.1% {
+        background-color: #1a0909;
+    }
+
+    40% {
+        background-color: #1a0909;
+    }
+
+    40.1% {
+        background-color: red;
+    }
+
+    90% {
+        background-color: red;
+    }
+
+    90.1% {
+        background-color: #1a0909;
+    }
+
+    100% {
+        background-color: #1a0909
+    }
+}
